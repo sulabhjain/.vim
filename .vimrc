@@ -28,6 +28,10 @@ syntax on
 " line numbering on
 set nu
 
+" set soft tabs
+set expandtab
+set tabstop=2
+
 " Setup grb256 colorscheme git://github.com/wgibbs/vim-irblack.git
 " Bundle 'cstrahan/grb256.git'
 " Bundle 'wgibbs/vim-irblack.git'
