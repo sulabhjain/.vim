@@ -22,6 +22,9 @@ filetype plugin indent on "required
 " syntax on to show color in ruby
 syntax on
 
+" line numbering on
+set nu
+
  "
  " Brief help
  " :BundleList          - list configured bundles
