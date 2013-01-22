@@ -11,12 +11,16 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My Bundles here
+Bundle 'vim-ruby/vim-ruby'
 Bundle 'tpope/vim-fugitive'
 Bundle 'tpope/vim-rails.git'
 Bundle 'tpope/vim-haml.git'
-Bundle 'wincent/Command-T.git'
+Bundle 'kien/ctrlp.vim.git'
 
 filetype plugin indent on "required
+
+" syntax on to show color in ruby
+syntax on
 
  "
  " Brief help
@@ -28,5 +32,7 @@ filetype plugin indent on "required
  " see :h vundle for more details or wiki for FAQ
  " NOTE: comments after Bundle command are not allowed..
 
-
-
+ " not sure if this is working
+"g:ctrlp_custom_ignore = { 
+	\ 'dir': '/tmp/cache'
+	\ }
